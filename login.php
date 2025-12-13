@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
   <div class="login-container">
-    <h2>Login Admin</h2>
+    <h2>Sistem Informasi Data Warga dan Iuran</h2>
     <?php if (!empty($error)) : ?>
       <p class="error"><?= htmlspecialchars($error) ?></p>
     <?php endif; ?>
