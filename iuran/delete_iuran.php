@@ -7,7 +7,7 @@ if (!isset($_GET['id'])) {
     exit;
 }
 
-$id = intval($_GET['id']); // id iuran tetap ada sebagai PK auto_increment
+$id = intval($_GET['id']); 
 
 // Ambil data iuran untuk mendapatkan no_rumah dan tahun
 $sql = "SELECT * FROM iuran WHERE id = ?";

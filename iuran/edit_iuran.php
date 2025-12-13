@@ -6,7 +6,7 @@ if (!isset($_GET['id'])) {
     exit;
 }
 
-$id = intval($_GET['id']); // id iuran tetap ada sebagai PK auto_increment
+$id = intval($_GET['id']); 
 
 $sql = "SELECT iuran.*, warga.nama_kk, warga.no_rumah 
         FROM iuran 
