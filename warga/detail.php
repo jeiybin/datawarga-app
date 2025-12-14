@@ -87,7 +87,7 @@ $tahun = isset($_GET['tahun']) ? intval($_GET['tahun']) : date("Y");
                     ? "<span style='color:green;font-weight:600;'>Lunas</span>"
                     : "<span style='color:red;font-weight:600;'>Belum</span>";
             } else {
-                echo "<span style='color:gray;'>Belum Diinput</span>";
+                echo "<span style='color:gray;'>Belum Bayar</span>";
             }
             ?>
           </td>
